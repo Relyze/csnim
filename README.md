@@ -9,3 +9,10 @@ thank you to [qb-0](https://github.com/qb-0) for the [nimem](https://github.com/
 
 Compile via 
 > nim c main.nim
+
+Todo:
+- [] Implement remote offset updating, (i.e. hazedumper)
+- [] Implement radar
+- [] Implement aimbot
+- [] Implement config files
+- [] Implement a web-based menu (will only do this after everything else is completed)
