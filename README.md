@@ -1,5 +1,7 @@
 # csnim
-This is a basic external cs:go cheat coded in nim. 
+
+This is a basic external cs:go cheat coded in nim. **This is NOT VAC safe, we are directly opening a handle to the game, and reading the process memory and writing to it. Not only this, but we are writing to the player's glow/outline structure, which **will** flag you.
+
 This is **not** a great example of an external, and the structure isn't very good either, but I made it in 2 hours with very little knowledge of nim.
 
 It of course does however utilize reading and writing structs to reduce the number of RPMs and WPMs used, which should moderately increase performance.
@@ -9,10 +11,3 @@ thank you to [qb-0](https://github.com/qb-0) for the [nimem](https://github.com/
 
 Compile via 
 > nim c main.nim
-
-Todo:
-- [] Implement remote offset updating, (i.e. hazedumper)
-- [] Implement radar
-- [] Implement aimbot
-- [] Implement config files
-- [] Implement a web-based menu (will only do this after everything else is completed)
