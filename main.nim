@@ -52,7 +52,7 @@ proc cheatLoop =
             sleep(1500)
 
 when isMainModule:
-    echo "initializing nimsgo..."
+    echo "initializing csnim..."
     try:
         # get the csgo process and dlls
         p = processByName("csgo.exe") 
